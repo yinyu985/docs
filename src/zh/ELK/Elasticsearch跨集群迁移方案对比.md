@@ -158,12 +158,12 @@ screen -d -r session_name        # 结束当前session并回到session_name这�
 #!/bin/sh
 echo `date` >~/dump.log
 elasticdump \
-  --input=http://elastic:Xhs@12345678@localhost:9200/netops_pa_device-2022-12-15 \
-  --output=http://elastic:Xhs@12345678@10.23.191.99:9200/netops_pa_device-2022-12-15 \
+  --input=http://elastic:XXXXXXXXXXXX@localhost:9200/netops_pa_device-2022-12-15 \
+  --output=http://elastic:XXXXXXXXXXXX@10.23.191.99:9200/netops_pa_device-2022-12-15 \
   --type=mapping >>~/dump.log
 elasticdump \
-  --input=http://elastic:Xhs@12345678@localhost:9200/netops_pa_device-2022-12-15 \
-  --output=http://elastic:Xhs@12345678@10.23.191.99:9200/netops_pa_device-2022-12-15 \
+  --input=http://elastic:XXXXXXXXXXXX@localhost:9200/netops_pa_device-2022-12-15 \
+  --output=http://elastic:XXXXXXXXXXXX@10.23.191.99:9200/netops_pa_device-2022-12-15 \
   --type=data >> ~/dump.log 
 echo `date` >>~/dump.log
 ```

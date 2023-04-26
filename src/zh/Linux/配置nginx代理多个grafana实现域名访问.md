@@ -12,10 +12,10 @@
     }
      server {
         listen       80;
-        server_name  grafana-it.int.xiaohongshu.com;
+        server_name  grafana-it.int.apple.com;
         charset UTF-8;
-        access_log  /var/log/nginx/grafana-it.int.xiaohongshu.com_access.log  main;
-        error_log  /var/log/nginx/grafana-it.int.xiaohongshu.com_error.log  error;
+        access_log  /var/log/nginx/grafana-it.int.apple.com_access.log  main;
+        error_log  /var/log/nginx/grafana-it.int.apple.com_error.log  error;
  
         location / {
             proxy_redirect off;

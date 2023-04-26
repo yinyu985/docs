@@ -128,7 +128,7 @@ if __name__ == '__main__':
     start_http_server(9118)
     '''开启http暴露指标，端口在9118'''
     while True:
-        for url in ['https://netapi.devops.xiaohongshu.com/anti-phishing/ping', 'http://10.23.188.135:8080/ping',
+        for url in ['https://netapi.devops.apple.com/anti-phishing/ping', 'http://10.23.188.135:8080/ping',
                     'http://10.23.188.136:8080/ping']:
             try:
                 response = requests.get(url, verify=False)

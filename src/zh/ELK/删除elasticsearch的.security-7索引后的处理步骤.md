@@ -29,7 +29,7 @@ xpack.security.transport.ssl.truststore.path: /data/elasticsearch_master/config/
 创建一个超级用户，这个用户不会存进索引所以不受影响，
 
 ```bash
-bin/elasticsearch-users useradd restore_user -p Xhs@12345678 -r superuser
+bin/elasticsearch-users useradd restore_user -p XXXXXXXXXXXX -r superuser
 ```
 用这个用户对所有security相关的索引全部删除
 
