@@ -1,0 +1,129 @@
+{
+  "main": {
+    "id": "62234a01432758fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7c5c5776706f81e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "061b92f4e167cbc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "be4bf864352994d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "e62be1efc91770fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f491dda2033037fa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "18be716147d4926c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e3fa1414138eea1b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 389.5
+  },
+  "right": {
+    "id": "0d4d9d75710e2050",
+    "type": "split",
+    "children": [
+      {
+        "id": "e81c463a30978090",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8b2d92b30696ac5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6d16d770b1aeab8a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "061b92f4e167cbc0",
+  "lastOpenFiles": [
+    "src/zh/ELK/ELK跨云迁移记录.md",
+    "未命名.md",
+    "src/zh/GPT/迁移ELK_GPT.md",
+    "src/zh/ELK/使用log-pilot收集k8s中的容器日志.md",
+    "src/zh/ELK/删除elasticsearch的.security-7索引后的处理步骤.md",
+    "src/zh/ELK/跨集群复制的迁移方式.md"
+  ]
+}
