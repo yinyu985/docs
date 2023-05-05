@@ -1,5 +1,5 @@
 # elastalert2安装配置流程-代替elastalert
-之前已经有elastalert的安装配置文档了，虽然经过了测试但是发现部分内置命令无法正常运行，并且不支持新版本kibana，代码仓库长时间没有更新，于是换用新版本的elastalert2.<!--more-->
+之前已经有elastalert的安装配置文档了，虽然经过了测试但是发现部分内置命令无法正常运行，并且不支持新版本kibana，代码仓库长时间没有更新，于是换用新版本的elastalert2.
 
 ### [Requirements](https://elastalert2.readthedocs.io/en/latest/running_elastalert.html#requirements)
 
