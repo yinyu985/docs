@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "src/zh/ELK/ELK跨云迁移记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "src/zh/ELK/ELK跨云迁移记录.md"
               }
             }
           }
@@ -119,6 +119,7 @@
   },
   "active": "061b92f4e167cbc0",
   "lastOpenFiles": [
+    "README.md",
     "src/zh/ELK/ELK跨云迁移记录.md",
     "未命名.md",
     "src/zh/GPT/迁移ELK_GPT.md",
