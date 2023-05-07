@@ -3,3 +3,6 @@ src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
 src/zh.zip/
+./.obsidian
+./.vscode
+./.DS_Store
