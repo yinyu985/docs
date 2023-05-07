@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: ShareYu
-heroImage: /logo.svg
+heroImage: "/index.png"
 heroText: ShareYu
 tagline: "追风的男人"
 actions:

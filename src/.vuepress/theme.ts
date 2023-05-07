@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://yinyu985.github.io/",
   },
   iconAssets: "iconify",
-  logo: "/logo.svg",
+  logo: "/index.png",
   repo: "yinyu985/docs",
   repoLabel: "GitHub",
   repoDisplay: true,
