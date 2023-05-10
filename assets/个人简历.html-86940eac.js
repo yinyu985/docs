@@ -1,0 +1,1 @@
+import{_ as a,W as o,X as r,Y as s,Z as e,$ as c,D as n}from"./framework-373472b1.js";const _={},d=e("h1",{id:"个人简历",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#个人简历","aria-hidden":"true"},"#"),c(" 个人简历")],-1);function l(i,f){const t=n("PDF");return o(),r("div",null,[d,s(t,{url:"/resume.pdf"})])}const m=a(_,[["render",l],["__file","个人简历.html.vue"]]);export{m as default};
