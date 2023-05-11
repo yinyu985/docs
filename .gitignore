@@ -2,7 +2,7 @@ node_modules/
 src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
-src/zh.zip/
 ./.obsidian
 ./.vscode
-./.DS_Storediff.sh
+./.DS_Store
+diff.sh
