@@ -49,7 +49,5 @@ export const zhSidebar = sidebar({
       collapsible: true,
       children: "structure",
     },
-    // "slides",
-    
   ],
 });
