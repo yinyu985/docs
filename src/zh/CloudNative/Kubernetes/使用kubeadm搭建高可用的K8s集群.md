@@ -445,7 +445,7 @@ kubectl get pods -n kube-system
 
 
 
-## 8、master2节点加入集群
+## 8.master2节点加入集群
 
 ### 8.1 复制密钥及相关文件
 
@@ -477,7 +477,7 @@ kubectl get node
 kubectl get pods --all-namespaces
 ```
 
-## 9、 加入Kubernetes Node
+## 9. 加入Kubernetes Node
 
 在node1上执行
 
@@ -498,7 +498,7 @@ kubectl get pods --all-namespaces
 ```
 
 
-## 10、 测试kubernetes集群
+## 10. 测试kubernetes集群
 
 在Kubernetes集群中创建一个pod，验证是否正常运行：
 
