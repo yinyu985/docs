@@ -381,7 +381,6 @@ scheduler: {}
 ```
 
 
-
 ### 6.2 在master1节点执行
 
 ```
@@ -478,9 +477,7 @@ kubectl get node
 kubectl get pods --all-namespaces
 ```
 
-## 
-
-## 5. 加入Kubernetes Node
+## 9、 加入Kubernetes Node
 
 在node1上执行
 
@@ -500,9 +497,8 @@ kubectl get node
 kubectl get pods --all-namespaces
 ```
 
-## 
 
-## 7. 测试kubernetes集群
+## 10、 测试kubernetes集群
 
 在Kubernetes集群中创建一个pod，验证是否正常运行：
 

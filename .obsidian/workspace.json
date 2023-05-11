@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fe55375b0371d2ee",
+        "id": "564c567747e5a6f8",
         "type": "tabs",
         "children": [
           {
-            "id": "bbc7a64213bba0c7",
+            "id": "992cd3ac27cfdc21",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,10 +138,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bbc7a64213bba0c7",
+  "active": "992cd3ac27cfdc21",
   "lastOpenFiles": [
-    "src/zh/CloudNative/Kubernetes/网络插件.md",
     "src/zh/CloudNative/Kubernetes/使用kubeadm搭建高可用的K8s集群.md",
+    "src/zh/CloudNative/Kubernetes/网络插件.md",
     "README.md"
   ]
 }
