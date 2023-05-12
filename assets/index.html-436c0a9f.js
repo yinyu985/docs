@@ -1,0 +1,1 @@
+import{_ as s,W as a,X as t,Y as e,Z as d}from"./framework-ab2cdc09.js";const c={},n=e("h1",{id:"fsdjakdsh",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#fsdjakdsh","aria-hidden":"true"},"#"),d(" fsdjakdsh")],-1),r=[n];function o(_,h){return a(),t("div",null,r)}const f=s(c,[["render",o],["__file","index.html.vue"]]);export{f as default};
