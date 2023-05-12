@@ -46,6 +46,5 @@ export const enSidebar = sidebar({
       children: "structure",
     },
     "slides",
-    
   ],
 });
