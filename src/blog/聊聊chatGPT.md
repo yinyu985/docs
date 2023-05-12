@@ -3,7 +3,6 @@ title: 聊聊chatGPT
 tag:
   - Life
 abbrlink: 12529
-password: yinyu
 message: 作者真名的拼音
 date: 2023-04-13 21:25:04
 ---
