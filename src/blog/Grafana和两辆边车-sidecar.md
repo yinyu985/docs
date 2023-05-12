@@ -1,6 +1,6 @@
 ---
 title: Grafana和两辆边车-sidecar
-tags:
+tag:
   - K8s
   - Docker
   - Grafana

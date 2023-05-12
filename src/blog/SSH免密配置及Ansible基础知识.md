@@ -1,6 +1,6 @@
 ---
 title: SSH免密配置及Ansible基础知识
-tags:
+tag:
   - Linux
   - Ansible
 abbrlink: 30720

@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch跨集群迁移方案对比
-tags:
+tag:
   - Linux
   - ELK
 abbrlink: 13736

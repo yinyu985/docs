@@ -1,6 +1,6 @@
 ---
 title: Nginx配置ssl证书、黑白名单
-tags:
+tag:
   - Nginx
   - Linux
 abbrlink: 45194

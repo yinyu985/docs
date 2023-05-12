@@ -1,6 +1,6 @@
 ---
 title: 聊聊chatGPT
-tags:
+tag:
   - Life
 abbrlink: 12529
 password: yinyu

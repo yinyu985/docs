@@ -1,6 +1,6 @@
 ---
 title: LVM创建和扩容
-tags:
+tag:
   - Linux
 abbrlink: 57637
 date: 2022-08-14 22:14:36

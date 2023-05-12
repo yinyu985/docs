@@ -1,6 +1,6 @@
 ---
 title: 使用prometheus_client写一个exporter
-tags:
+tag:
   - Prometheus
   - Python
 abbrlink: 65199

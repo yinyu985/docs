@@ -1,6 +1,6 @@
 ---
 title: minikube中使用Helm安装Prometheus监控大全套
-tags:
+tag:
   - Linux
   - Prometheus
   - Docker

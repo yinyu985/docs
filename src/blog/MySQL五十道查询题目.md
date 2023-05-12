@@ -1,6 +1,6 @@
 ---
 title: MySQL五十道查询题目
-tags:
+tag:
   - MySQL
 abbrlink: 29613
 date: 2021-07-01 21:59:31

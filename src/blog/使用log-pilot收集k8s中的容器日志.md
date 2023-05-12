@@ -1,6 +1,6 @@
 ---
 title: 使用log-pilot收集k8s中的容器日志
-tags:
+tag:
   - ELK
   - Docker
   - K8s

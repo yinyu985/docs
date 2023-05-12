@@ -1,6 +1,6 @@
 ---
 title: Lsync+rsync实现跨机器文件同步
-tags:
+tag:
   - Linux
 abbrlink: 41858
 date: 2022-06-16 21:51:17

@@ -1,6 +1,6 @@
 ---
 title: Docker运行VictoriaMetreic测试体验
-tags:
+tag:
   - Docker
   - Prometheus
 abbrlink: 12023

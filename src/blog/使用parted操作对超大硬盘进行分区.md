@@ -2,7 +2,7 @@
 title: 使用parted操作对超大硬盘进行分区
 abbrlink: 32992
 date: 2022-12-25 17:46:13
-tags:
+tag:
     - Linux
 ---
 

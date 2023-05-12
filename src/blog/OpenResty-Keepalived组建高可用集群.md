@@ -1,6 +1,6 @@
 ---
 title: OpenResty+Keepalived组建高可用集群
-tags:
+tag:
   - Nginx
   - Linux
 abbrlink: 64351

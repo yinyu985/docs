@@ -1,6 +1,6 @@
 ---
 title: Shell脚本加密的一些思考
-tags:
+tag:
   - Linux
   - Shell
 abbrlink: 55344

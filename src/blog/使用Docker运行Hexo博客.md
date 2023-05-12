@@ -1,6 +1,6 @@
 ---
 title: 使用Docker运行Hexo博客
-tags:
+tag:
   - Docker
   - Hexo
 abbrlink: 33575

@@ -1,6 +1,6 @@
 ---
 title: Virtualenv和Virtualenvwrapper使用指南
-tags:
+tag:
   - Python
 abbrlink: 49134
 date: 2021-06-10 19:55:08

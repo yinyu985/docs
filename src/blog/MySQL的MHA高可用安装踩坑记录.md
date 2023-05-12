@@ -1,6 +1,6 @@
 ---
 title: MySQL的MHA高可用安装踩坑记录
-tags:
+tag:
   - Linux
   - MySQL
 abbrlink: 63148

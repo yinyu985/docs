@@ -1,6 +1,6 @@
 ---
 title: I_LOVE_WUHAN
-tags:
+tag:
   - Life
 abbrlink: 57687
 date: 2021-06-05 19:26:39

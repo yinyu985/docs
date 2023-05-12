@@ -1,6 +1,6 @@
 ---
 title: Elastalert2安装配置流程-代替Elastalert
-tags:
+tag:
   - ELK
   - Alert
 abbrlink: 46030

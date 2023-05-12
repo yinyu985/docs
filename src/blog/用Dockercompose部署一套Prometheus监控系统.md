@@ -1,6 +1,6 @@
 ---
 title: 用Dockercompose部署一套Prometheus监控系统
-tags:
+tag:
   - Prometheus
   - Docker
 abbrlink: 56105

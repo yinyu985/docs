@@ -1,6 +1,6 @@
 ---
 title: Elasticsearch+Kibana+X-pack安装部署
-tags:
+tag:
   - ELK
 abbrlink: 64484
 date: 2022-03-12 10:38:27

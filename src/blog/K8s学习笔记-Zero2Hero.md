@@ -2,7 +2,7 @@
 title: K8s学习笔记_Zero2Hero
 abbrlink: 43866
 date: 2022-12-25 16:41:42
-tags:
+tag:
     - K8s
     - Resource
 ---

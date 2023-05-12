@@ -1,11 +1,11 @@
 ---
 title: Alertmaneger+grafana安装及配置服务
-tags:
+tag:
   - Prometheus
 abbrlink: 19908
 date: 2022-04-09 12:20:25
 ---
-# Alertmaneger+grafana安装及配置服务
+
 The [**Alertmanager**](https://github.com/prometheus/alertmanager) handles alerts sent by client applications such as the Prometheus server. It takes care of deduplicating, grouping, and routing them to the correct receiver integration such as email, PagerDuty, or OpsGenie. It also takes care of silencing and inhibition of alerts.
 
 **Grafana** allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share beautiful dashboards with your team and foster a data driven culture.

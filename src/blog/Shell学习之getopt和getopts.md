@@ -1,6 +1,6 @@
 ---
 title: Shell学习之getopt和getopts
-tags:
+tag:
   - Linux
   - Shell
 abbrlink: 37091

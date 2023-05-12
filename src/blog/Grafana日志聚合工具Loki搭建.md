@@ -1,6 +1,6 @@
 ---
 title: Grafana日志聚合工具Loki搭建
-tags:
+tag:
   - Grafana
   - Loki
 abbrlink: 38414

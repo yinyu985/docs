@@ -1,6 +1,6 @@
 ---
 title: Logstash用日志时间代替时间戳
-tags:
+tag:
   - ELK
   - Linux
 abbrlink: 10017

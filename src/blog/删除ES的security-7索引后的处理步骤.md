@@ -1,6 +1,6 @@
 ---
 title: 删除ES的security-7索引后的处理步骤
-tags:
+tag:
   - ELK
 abbrlink: 3947
 date: 2023-01-07 18:23:41
