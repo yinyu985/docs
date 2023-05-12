@@ -1,8 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const enSidebar = sidebar({
-  "/zh/": [
-    "",
+  "/docs/": [
     {
       icon: "note",
       text: "CloudNative",
@@ -45,6 +44,13 @@ export const enSidebar = sidebar({
       collapsible: true,
       children: "structure",
     },
-    "slides",
   ],
+  "/blog/": [
+    {
+      icon: "note",
+      text: "blog",
+      collapsible: true,
+      children: "structure",
+    },
+  ]
 });
