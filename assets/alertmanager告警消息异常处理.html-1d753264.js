@@ -1,0 +1,11 @@
+import{_ as t,W as r,X as l,Y as e,Z as a,$ as s,a0 as i,D as d}from"./framework-b4edc447.js";const c={},o=i(`<h1 id="alertmanager告警消息异常处理" tabindex="-1"><a class="header-anchor" href="#alertmanager告警消息异常处理" aria-hidden="true">#</a> alertmanager告警消息异常处理</h1><p>早上发现告警消息中，有异常，其中原本应该每个两小时重复发送一次的告警消息，如果正常按照repeat_interval应该是每隔两小时，发送一次</p><p>查询消息发送日志发现，05.42两条json的某一个参数不同，只有这一个参数不同，导致两条告警消息被判断为不同的告警，从而发出两条。</p><p>为了杜绝这种现象的再次出现，在测试环境中的alertmanager的启动参数中添加了--web.external-url=</p><p>用于指定发送的的来源，这样每条告警消息中的externalURL，就会与启动参数中设置的一样，不会影响到消息过滤的效果</p><p>操作流程，停掉36测试的alertmanager</p><p>vim /etc/systemd/system/alertmanager.service</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>[Unit]
+Description=Alertmanager
+[Service]
+Type=simple
+ExecStart=/data/alertmanager-0.23.0.linux-amd64/alertmanager --log.level=info --log.format=json \\
+    --config.file /data/alertmanager-0.23.0.linux-amd64/alertmanager.yml \\
+    --storage.path /data/alertmanager-0.23.0.linux-amd64/data \\
+    --web.external-url=http://alertmanager-test.int.XXXXXXXXX.com
+[Install]
+WantedBy=multi-user.target
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>触发告警，看日志中的externalURL是否与设置的一致</p><p>正式环境变更流程，</p><p>首先备份 /etc/systemd/system/alertmanager.service</p>`,11),m={href:"http://alertmanager.int.XXXXXXXXX.com",target:"_blank",rel:"noopener noreferrer"},p=e("p",null,"然后按照正常的启动顺序启动",-1),_=e("p",null,"查看集群是否正常，",-1),u=e("p",null,"查看查询消息发送日志，看externalURL是否与设置的一致。",-1),v=e("p",null,"删除备份",-1),g=e("p",null,"回退操作",-1),X=e("p",null,"删除新加的，还原备份，重载service文件。按顺序启动。",-1);function h(x,b){const n=d("ExternalLinkIcon");return r(),l("div",null,[o,e("p",null,[a("然后将集群中的五台机器做相同的操作加上 --web.external-url="),e("a",m,[a("http://alertmanager.int.XXXXXXXXX.com"),s(n)])]),p,_,u,v,g,X])}const y=t(c,[["render",h],["__file","alertmanager告警消息异常处理.html.vue"]]);export{y as default};
