@@ -3,9 +3,23 @@ import { sidebar } from "vuepress-theme-hope";
 export const enSidebar = sidebar({
   "/docs/": [
     {
+      text: "Docker",
       icon: "note",
-      text: "CloudNative",
-      prefix: "CloudNative/",
+      prefix: "Docker/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "Kubernetes",
+      icon: "note",
+      prefix: "Kubernetes/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "Prometheus",
+      icon: "note",
+      prefix: "Prometheus/",
       collapsible: true,
       children: "structure",
     },
@@ -13,6 +27,13 @@ export const enSidebar = sidebar({
       text: "ELK",
       icon: "note",
       prefix: "ELK/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "CI&CD",
+      icon: "note",
+      prefix: "CI&CD/",
       collapsible: true,
       children: "structure",
     },
@@ -31,6 +52,13 @@ export const enSidebar = sidebar({
       children: "structure",
     },
     {
+      text: "Python",
+      icon: "note",
+      prefix: "Python/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
       text: "Other",
       icon: "note",
       prefix: "Other/",
@@ -45,12 +73,4 @@ export const enSidebar = sidebar({
       children: "structure",
     },
   ],
-  "/blog/": [
-    {
-      icon: "note",
-      text: "blog",
-      collapsible: true,
-      children: "structure",
-    },
-  ]
 });

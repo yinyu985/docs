@@ -28,7 +28,6 @@ jobs:
           node-version: 18
           cache: pnpm
 
-
       - name: build documentation
         env:
           NODE_OPTIONS: --max_old_space_size=8192

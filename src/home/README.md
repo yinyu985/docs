@@ -7,7 +7,10 @@ heroText: ShareYu
 tagline: "追风的男人"
 actions:
   - text: 开始
-    link: /docs/CloudNative/
+    link: /docs/
+    type: primary
+  - text: 博客
+    link: https://yinyu985.github.io/
     type: primary
 
 
@@ -24,18 +27,18 @@ features:
     icon: logos:elasticsearch
     details: 记录Elasticsearch日志处理技术栈相关的的文档库
     link: /docs/ELK/
-  - title: CloudNative
-    icon: mdi:kubernetes
-    details: 记录云原生相关的技术栈的文档库
-    link: /docs/CloudNative/
+  # - title: CloudNative
+  #   icon: mdi:kubernetes
+  #   details: 记录云原生相关的技术栈的文档库
+  #   link: /docs/CloudNative/
   - title: Docker
     icon: vscode-icons:file-type-docker
     details: 记录Docker技术栈使用过程中遇到的问题的文档库
-    link: /docs/CloudNative/Docker/
+    link: /docs/Docker/
   - title: Prometheus
     icon: logos:prometheus
     details: 记录云原生监控系统代表人物Prometheus的知识的文档库
-    link: /docs/CloudNative/Docker/
+    link: /docs/Docker/
   - title: GPT
     icon: bxs:bot
     details: 记录和一本正经的胡说八道的人工智能聊天记录的文档库

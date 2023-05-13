@@ -10,7 +10,7 @@ export default hopeTheme({
     url: "https://yinyu985.github.io/",
   },
   iconAssets: "iconify",
-  // logo: "/index.png",
+  logo: "/index.png",
   repo: "yinyu985/docs",
   repoLabel: "GitHub",
   repoDisplay: true,
@@ -33,6 +33,7 @@ export default hopeTheme({
     },
   },
   plugins: {
+    // autoCatalog: false,
     mdEnhance: {
       align: true,
       attrs: true,
