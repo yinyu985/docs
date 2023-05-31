@@ -27,10 +27,10 @@ features:
     icon: logos:elasticsearch
     details: 记录Elasticsearch日志处理技术栈相关的的文档库
     link: /docs/ELK/
-  # - title: CloudNative
-  #   icon: mdi:kubernetes
-  #   details: 记录云原生相关的技术栈的文档库
-  #   link: /docs/CloudNative/
+  - title: Kubernetes
+    icon: mdi:kubernetes
+    details: 记录Kubernetes相关的技术栈的文档库
+    link: /docs/CloudNative/
   - title: Docker
     icon: vscode-icons:file-type-docker
     details: 记录Docker技术栈使用过程中遇到的问题的文档库
