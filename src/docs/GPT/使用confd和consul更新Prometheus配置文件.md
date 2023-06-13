@@ -1,5 +1,4 @@
 # 使用confd和consul更新Prometheus配置文件
-1. 首先，确认您的Prometheus已设置好警报规则配置。可以在Prometheus的配置文件（prometheus.yml）中添加以下内容：
 
 > 1. 首先，确认您的Prometheus已设置好警报规则配置。可以在Prometheus的配置文件（prometheus.yml）中添加以下内容：
 >
