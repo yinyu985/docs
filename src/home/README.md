@@ -46,6 +46,5 @@ features:
     icon: ic:outline-more-horiz
     details: 记录一些看起里没有用，其实也没啥用的文档库
     link: /docs/Other/
-
     copyright: false
 ---
