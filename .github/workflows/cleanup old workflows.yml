@@ -1,0 +1,17 @@
+name: cleanup old workflows
+
+on:
+  schedule:
+    - cron: '27 15 * * *'
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete old workflow runs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for run_id in $(curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/runs?per_page=100 | jq '.workflow_runs[] | select(.created_at<"'$(date --date='1 days ago' --iso-8601=s)'") | .id'); do
+            curl -X DELETE -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/runs/$run_id
+          done
